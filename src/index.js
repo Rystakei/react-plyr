@@ -210,7 +210,6 @@ class Plyr extends Component {
         <video
           className='react-plyr'
           src={this.props.url}
-          preload='none'
           poster={this.props.poster}
         />
       );
